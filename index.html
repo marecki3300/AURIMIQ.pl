@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<meta name="description" content="AURIMIQ.ai — Intelligent Wealth Terminal. AI-powered Bloomberg-grade financial analysis."/>
-<title>AURIMIQ.ai — Intelligent Wealth Terminal</title>
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-GRMPYR8YV3"></script>
+<meta name="description" content="AURIMIQ.ai — Inteligentny Terminal Finansowy. Analiza rynków AI klasy Bloomberg. Krypto, akcje, złoto, forex."/>
+<title>AURIMIQ.ai — Inteligentny Terminal Finansowy</title>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CNFQN7YZT6"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-GRMPYR8YV3');
+  gtag('config', 'G-CNFQN7YZT6');
 </script>
-<!-- Favicon -->
 <link rel="icon" href="favicon.svg" type="image/svg+xml"/>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=JetBrains+Mono:wght@300;400;700&family=Bebas+Neue&display=swap" rel="stylesheet"/>
 <style>
@@ -296,7 +294,7 @@ nav {
 @keyframes blink { 0%,49%{opacity:1}50%,100%{opacity:0} }
 
 .pricing { padding: 120px 6vw; }
-.price-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); margin-top: 72px; }
+.price-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); margin-top: 72px; max-width: 800px; margin-left: auto; margin-right: auto; }
 .price-card { background: var(--dark2); padding: 48px 36px; position: relative; }
 .price-card.featured { background: linear-gradient(135deg, rgba(201,168,76,0.06), rgba(6,8,14,0.8)); border: 1px solid var(--border2); margin: -1px; }
 .price-badge { position: absolute; top: -1px; right: 28px; background: var(--gold); color: var(--dark); font-family: 'JetBrains Mono', monospace; font-size: 8px; letter-spacing: 3px; text-transform: uppercase; padding: 4px 12px; font-weight: 700; }
@@ -342,10 +340,10 @@ footer { border-top: 1px solid var(--border); padding: 40px 6vw; display: flex; 
     AURIMIQ<span>.ai</span>
   </a>
   <div class="nav-links">
-    <a href="#features">Features</a>
-    <a href="#pricing">Pricing</a>
+    <a href="#funkcje">Funkcje</a>
+    <a href="#cennik">Cennik</a>
     <a href="#demo">Terminal</a>
-    <a href="https://finansowa-aplikacja.netlify.app" class="nav-cta" onclick="gtag('event','click',{event_category:'nav',event_label:'launch_terminal'})">LAUNCH TERMINAL →</a>
+    <a href="https://finansowa-aplikacja.netlify.app" class="nav-cta" onclick="gtag('event','click',{event_category:'nav',event_label:'launch_terminal'})">URUCHOM TERMINAL →</a>
   </div>
 </nav>
 
@@ -355,18 +353,18 @@ footer { border-top: 1px solid var(--border); padding: 40px 6vw; display: flex; 
   </video>
   <div class="hero-content">
     <img src="logo.png" alt="AURIMIQ.ai" class="hero-logo"/>
-    <div class="hero-eyebrow">Bloomberg-Grade Financial Intelligence</div>
+    <div class="hero-eyebrow">Analiza finansowa klasy Bloomberg z AI</div>
     <h1 class="hero-title">AURIMIQ</h1>
-    <div class="hero-title-ai">intelligent wealth terminal</div>
-    <p class="hero-subtitle">Real-time Markets · Claude AI · DCF/LBO · Portfolio</p>
+    <div class="hero-title-ai">inteligentny terminal finansowy</div>
+    <p class="hero-subtitle">Rynki na żywo · Claude AI · DCF/LBO · Portfel</p>
     <div class="hero-btns">
-      <a href="https://finansowa-aplikacja.netlify.app" class="btn-gold" onclick="gtag('event','click',{event_category:'cta',event_label:'enter_terminal_hero'})"><span>ENTER TERMINAL →</span></a>
+      <a href="https://finansowa-aplikacja.netlify.app" class="btn-gold" onclick="gtag('event','click',{event_category:'cta',event_label:'enter_terminal_hero'})"><span>URUCHOM TERMINAL →</span></a>
       <a href="https://github.com/marecki3300/aplikacja/releases/latest/download/app-release.apk" class="btn-outline btn-apk" onclick="gtag('event','click',{event_category:'cta',event_label:'download_apk_hero'})">📱 POBIERZ APK</a>
-      <a href="#features" class="btn-outline" style="font-size:9px">EXPLORE FEATURES</a>
+      <a href="#funkcje" class="btn-outline" style="font-size:9px">ODKRYJ FUNKCJE</a>
     </div>
     <div class="apk-hint">
       <span class="apk-hint-icon">ℹ</span>
-      Android: Ustawienia → Bezpieczeństwo → "Zezwól na nieznane źródła" → zainstaluj APK
+      Android: Ustawienia → Bezpieczeństwo → "Nieznane źródła" → włącz → zainstaluj APK
     </div>
   </div>
   <div class="ticker-wrap" style="width:100%">
@@ -398,19 +396,19 @@ footer { border-top: 1px solid var(--border); padding: 40px 6vw; display: flex; 
 
 <div class="gold-divider"><span class="gold-divider-icon">◆</span></div>
 
-<section class="features" id="features">
+<section class="features" id="funkcje">
   <div class="section-header reveal">
-    <span class="section-tag">› Capabilities</span>
-    <h2 class="section-title">Everything you need<br/>to invest at the highest level</h2>
-    <p class="section-sub">Professional-grade intelligence, powered by Claude AI and real-time market data.</p>
+    <span class="section-tag">› Możliwości</span>
+    <h2 class="section-title">Wszystko czego potrzebujesz<br/>do inwestowania na najwyższym poziomie</h2>
+    <p class="section-sub">Profesjonalna analiza zasilana przez Claude AI i dane rynkowe w czasie rzeczywistym.</p>
   </div>
   <div class="feat-grid reveal">
-    <div class="feat"><div class="feat-num">01</div><span class="feat-icon">📊</span><div class="feat-title">TRADINGVIEW CHARTS</div><div class="feat-desc">Professional candlestick charts with RSI, MACD, and Bollinger Bands. The same tools used on Wall Street trading floors.</div></div>
-    <div class="feat"><div class="feat-num">02</div><span class="feat-icon">🤖</span><div class="feat-title">CLAUDE AI ANALYST</div><div class="feat-desc">Powered by Anthropic's Claude Sonnet — the most sophisticated financial AI available. DCF models, LBO analysis, and market intelligence with live data.</div></div>
-    <div class="feat"><div class="feat-num">03</div><span class="feat-icon">⚡</span><div class="feat-title">LIVE MARKET DATA</div><div class="feat-desc">Real-time prices from Binance, CoinGecko, and Kraken. Triple redundancy ensures you always have data. Crypto, stocks, gold, and forex.</div></div>
-    <div class="feat"><div class="feat-num">04</div><span class="feat-icon">💼</span><div class="feat-title">PORTFOLIO TRACKER</div><div class="feat-desc">Track all your positions with real-time P&L calculations. Know exactly where you stand at every moment.</div></div>
-    <div class="feat"><div class="feat-num">05</div><span class="feat-icon">🧮</span><div class="feat-title">DCF & LBO MODELS</div><div class="feat-desc">Built-in financial models trusted by investment banks. Calculate enterprise value, IRR, and equity returns in seconds.</div></div>
-    <div class="feat"><div class="feat-num">06</div><span class="feat-icon">📱</span><div class="feat-title">ANDROID TERMINAL</div><div class="feat-desc">Full Bloomberg-grade terminal in your pocket. Available on Android with crypto, stocks, metals, and AI analysis.</div></div>
+    <div class="feat"><div class="feat-num">01</div><span class="feat-icon">📊</span><div class="feat-title">WYKRESY TRADINGVIEW</div><div class="feat-desc">Profesjonalne wykresy świecowe z RSI, MACD i Wstęgami Bollingera. Te same narzędzia co na parkietach Wall Street.</div></div>
+    <div class="feat"><div class="feat-num">02</div><span class="feat-icon">🤖</span><div class="feat-title">ANALITYK CLAUDE AI</div><div class="feat-desc">Zasilany przez Claude Sonnet od Anthropic — najbardziej zaawansowane AI finansowe. Modele DCF, analizy LBO i intelligence rynkowy z danymi na żywo.</div></div>
+    <div class="feat"><div class="feat-num">03</div><span class="feat-icon">⚡</span><div class="feat-title">DANE RYNKOWE NA ŻYWO</div><div class="feat-desc">Ceny w czasie rzeczywistym z Binance, CoinGecko i Kraken. Potrójna redundancja gwarantuje ciągłość danych. Krypto, akcje, złoto i forex.</div></div>
+    <div class="feat"><div class="feat-num">04</div><span class="feat-icon">💼</span><div class="feat-title">TRACKER PORTFELA</div><div class="feat-desc">Śledź wszystkie pozycje z kalkulacją P&L w czasie rzeczywistym. Zawsze wiedz gdzie stoisz.</div></div>
+    <div class="feat"><div class="feat-num">05</div><span class="feat-icon">🧮</span><div class="feat-title">MODELE DCF I LBO</div><div class="feat-desc">Wbudowane modele finansowe stosowane przez banki inwestycyjne. Oblicz wartość przedsiębiorstwa, IRR i zwroty kapitałowe w sekundy.</div></div>
+    <div class="feat"><div class="feat-num">06</div><span class="feat-icon">📱</span><div class="feat-title">TERMINAL ANDROID</div><div class="feat-desc">Pełny terminal klasy Bloomberg w kieszeni. Dostępny na Android z krypto, akcjami, metalami i analizą AI.</div></div>
   </div>
 </section>
 
@@ -418,9 +416,9 @@ footer { border-top: 1px solid var(--border); padding: 40px 6vw; display: flex; 
   <div class="demo-grid">
     <div class="demo-text">
       <div class="section-header">
-        <span class="section-tag">› AI Terminal Demo</span>
-        <h2 class="section-title">Ask anything.<br/>Get institutional-grade answers.</h2>
-        <p class="section-sub">From price analysis to full DCF models — AURIMIQ.ai handles everything with precision.</p>
+        <span class="section-tag">› Demo terminala AI</span>
+        <h2 class="section-title">Zapytaj o wszystko.<br/>Otrzymaj odpowiedzi klasy instytucjonalnej.</h2>
+        <p class="section-sub">Od analizy cen po pełne modele DCF — AURIMIQ.ai wszystkim zajmuje się z precyzją.</p>
       </div>
     </div>
     <div class="terminal reveal">
@@ -453,71 +451,58 @@ footer { border-top: 1px solid var(--border); padding: 40px 6vw; display: flex; 
   </div>
 </section>
 
-<section class="pricing" id="pricing">
+<section class="pricing" id="cennik">
   <div class="section-header reveal">
-    <span class="section-tag">› Investment Plans</span>
-    <h2 class="section-title">Transparent pricing.<br/>No hidden fees.</h2>
+    <span class="section-tag">› Plany cenowe</span>
+    <h2 class="section-title">Przejrzyste ceny.<br/>Bez ukrytych opłat.</h2>
   </div>
   <div class="price-grid reveal">
     <div class="price-card">
-      <div class="price-tier">Free</div>
+      <div class="price-tier">Darmowy</div>
       <div class="price-amount">0<span style="font-size:32px;color:var(--text3)">PLN</span></div>
-      <div class="price-period">FOREVER FREE</div>
+      <div class="price-period">NA ZAWSZE BEZPŁATNY</div>
       <ul class="price-list">
-        <li>5 AI queries on start</li>
-        <li>TradingView charts</li>
-        <li>Live crypto prices</li>
-        <li class="off">Portfolio tracker</li>
-        <li class="off">Price alerts</li>
-        <li class="off">DCF/LBO models</li>
+        <li>1 zapytanie AI dziennie</li>
+        <li>Wykresy TradingView</li>
+        <li>Ceny krypto i akcji na żywo</li>
+        <li class="off">Tracker portfela</li>
+        <li class="off">Alerty cenowe</li>
+        <li class="off">Modele DCF/LBO</li>
       </ul>
-      <button class="price-btn ghost" onclick="window.location='https://finansowa-aplikacja.netlify.app';gtag('event','click',{event_category:'pricing',event_label:'start_free'})">START FREE →</button>
+      <button class="price-btn ghost" onclick="window.location='https://finansowa-aplikacja.netlify.app';gtag('event','click',{event_category:'pricing',event_label:'start_free'})">ZACZNIJ ZA DARMO →</button>
     </div>
     <div class="price-card featured">
-      <div class="price-badge">MOST POPULAR</div>
+      <div class="price-badge">NAJPOPULARNIEJSZY</div>
       <div class="price-tier">Pro</div>
       <div class="price-amount">49<span style="font-size:32px">PLN</span></div>
-      <div class="price-period">PER MONTH</div>
+      <div class="price-period">MIESIĘCZNIE</div>
       <ul class="price-list">
-        <li>Unlimited Claude AI queries</li>
-        <li>TradingView + all indicators</li>
-        <li>Portfolio tracker with P&L</li>
-        <li>Unlimited price alerts</li>
-        <li>DCF & LBO calculators</li>
-        <li>PDF report export</li>
-        <li>Live news feed</li>
-        <li>Android terminal app</li>
+        <li>Nielimitowane zapytania Claude AI</li>
+        <li>TradingView + wszystkie wskaźniki</li>
+        <li>Tracker portfela z P&L</li>
+        <li>Nielimitowane alerty cenowe</li>
+        <li>Kalkulatory DCF i LBO</li>
+        <li>Eksport raportów PDF</li>
+        <li>Newsfeed na żywo</li>
+        <li>Aplikacja Android</li>
       </ul>
-      <button class="price-btn solid" onclick="window.location='https://finansowa-aplikacja.netlify.app';gtag('event','click',{event_category:'pricing',event_label:'activate_pro'})">ACTIVATE PRO →</button>
-    </div>
-    <div class="price-card">
-      <div class="price-tier">Teams</div>
-      <div class="price-amount">199<span style="font-size:32px;color:var(--text3)">PLN</span></div>
-      <div class="price-period">PER MONTH · 5 USERS</div>
-      <ul class="price-list">
-        <li>Everything in Pro</li>
-        <li>5 user accounts</li>
-        <li>Shared portfolio workspace</li>
-        <li>Team analytics dashboard</li>
-        <li>Priority support</li>
-      </ul>
-      <button class="price-btn ghost" onclick="alert('Teams plan launching soon!')">COMING SOON</button>
+      <button class="price-btn solid" onclick="window.location='https://finansowa-aplikacja.netlify.app';gtag('event','click',{event_category:'pricing',event_label:'activate_pro'})">AKTYWUJ PRO →</button>
     </div>
   </div>
 </section>
 
 <section class="cta">
-  <h2 class="cta-title reveal">"The Bloomberg Terminal<br/>for the modern investor."</h2>
-  <p class="cta-sub reveal">Start free. Upgrade when you're ready.</p>
+  <h2 class="cta-title reveal">"Terminal Bloomberg<br/>dla nowoczesnego inwestora."</h2>
+  <p class="cta-sub reveal">Zacznij za darmo. Przejdź na Pro kiedy będziesz gotowy.</p>
   <div style="display:flex;gap:16px;justify-content:center;flex-wrap:wrap;" class="reveal">
-    <a href="https://finansowa-aplikacja.netlify.app" class="btn-gold" onclick="gtag('event','click',{event_category:'cta',event_label:'enter_terminal_bottom'})"><span>ENTER TERMINAL →</span></a>
+    <a href="https://finansowa-aplikacja.netlify.app" class="btn-gold" onclick="gtag('event','click',{event_category:'cta',event_label:'enter_terminal_bottom'})"><span>URUCHOM TERMINAL →</span></a>
     <a href="https://github.com/marecki3300/aplikacja/releases/latest/download/app-release.apk" class="btn-outline btn-apk" onclick="gtag('event','click',{event_category:'cta',event_label:'download_apk_bottom'})">📱 POBIERZ APK</a>
   </div>
 </section>
 
 <section style="padding:80px 6vw;background:var(--dark2);border-top:1px solid var(--border)">
   <div style="max-width:600px;margin:0 auto;text-align:center">
-    <span style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:5px;color:var(--gold);display:block;margin-bottom:16px">› ANDROID INSTALLATION</span>
+    <span style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:5px;color:var(--gold);display:block;margin-bottom:16px">› INSTALACJA ANDROID</span>
     <h3 style="font-family:'Cormorant Garamond',serif;font-size:36px;font-weight:300;color:var(--gold2);margin-bottom:32px">Jak zainstalować APK?</h3>
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border);border:1px solid var(--border)">
       <div style="background:var(--dark);padding:28px 20px;text-align:center"><div style="font-family:'Bebas Neue',sans-serif;font-size:40px;color:var(--border);margin-bottom:12px">01</div><div style="font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:2px;color:var(--gold2);margin-bottom:8px">POBIERZ</div><div style="font-size:12px;color:var(--text2);font-weight:300">Kliknij "Pobierz APK" i zapisz plik na telefonie</div></div>
@@ -530,8 +515,8 @@ footer { border-top: 1px solid var(--border); padding: 40px 6vw; display: flex; 
 
 <footer>
   <div class="footer-logo">AURIMIQ.ai</div>
-  <div>INTELLIGENT WEALTH TERMINAL · © 2026</div>
-  <div>Not financial advice. Trade responsibly.</div>
+  <div>INTELIGENTNY TERMINAL FINANSOWY · © 2026</div>
+  <div>Nie jest to porada finansowa. Inwestuj odpowiedzialnie.</div>
 </footer>
 
 <script>
@@ -562,7 +547,6 @@ async function updateTicker() {
 updateTicker();
 setInterval(updateTicker, 30000);
 
-// Track scroll depth
 var depths = [25, 50, 75, 100];
 var tracked = {};
 window.addEventListener('scroll', function() {
