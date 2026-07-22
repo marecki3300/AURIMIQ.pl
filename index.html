@@ -463,7 +463,7 @@ footer { border-top: 1px solid var(--border); padding: 40px 6vw; display: flex; 
     <span class="section-tag">› Plany cenowe</span>
     <h2 class="section-title">Przejrzyste ceny.<br/>Bez ukrytych opłat.</h2>
   </div>
-  <div class="price-grid reveal">
+  <div class="price-grid reveal" style="grid-template-columns:repeat(3,1fr)">
     <div class="price-card">
       <div class="price-tier">Darmowy</div>
       <div class="price-amount">0<span style="font-size:32px;color:var(--text3)">PLN</span></div>
@@ -472,11 +472,26 @@ footer { border-top: 1px solid var(--border); padding: 40px 6vw; display: flex; 
         <li>1 zapytanie AI dziennie</li>
         <li>Wykresy TradingView</li>
         <li>Ceny krypto i akcji na żywo</li>
-        <li class="off">Tracker portfela</li>
-        <li class="off">Alerty cenowe</li>
+        <li class="off">Tryb Prosty 🧒</li>
+        <li class="off">Mapy ciepła i newsy</li>
         <li class="off">Modele DCF/LBO</li>
       </ul>
       <button class="price-btn ghost" onclick="window.location='https://aurimiq-ai.netlify.app';gtag('event','click',{event_category:'pricing',event_label:'start_free'})">ZACZNIJ ZA DARMO →</button>
+    </div>
+    <div class="price-card">
+      <div class="price-tier">Lite</div>
+      <div class="price-amount">19<span style="font-size:32px">PLN</span></div>
+      <div class="price-period">MIESIĘCZNIE</div>
+      <ul class="price-list">
+        <li>25 zapytań AI dziennie</li>
+        <li>TradingView + wskaźniki (RSI, MACD)</li>
+        <li>Tryb Prosty 🧒</li>
+        <li>Mapy ciepła, newsy, kalendarz</li>
+        <li>Kursy walut NBP</li>
+        <li class="off">Nielimitowane zapytania</li>
+        <li class="off">Eksport raportów PDF</li>
+      </ul>
+      <button class="price-btn ghost" onclick="window.location='https://aurimiq-ai.netlify.app';gtag('event','click',{event_category:'pricing',event_label:'activate_lite'})">WYBIERAM LITE →</button>
     </div>
     <div class="price-card featured">
       <div class="price-badge">NAJPOPULARNIEJSZY</div>
@@ -486,7 +501,7 @@ footer { border-top: 1px solid var(--border); padding: 40px 6vw; display: flex; 
       <ul class="price-list">
         <li>Nielimitowane zapytania Claude AI</li>
         <li>TradingView + wszystkie wskaźniki</li>
-        <li>Tracker portfela z P&L</li>
+        <li>Tryb Prosty 🧒 + mapy ciepła</li>
         <li>Nielimitowane alerty cenowe</li>
         <li>Kalkulatory DCF i LBO</li>
         <li>Eksport raportów PDF</li>
